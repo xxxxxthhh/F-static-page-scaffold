@@ -7,10 +7,66 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid;
+  background-color: #3b5998;
+  padding: 20px 40px;
+}
+
+.logo-register {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: white;
+}
+
+.register-button {
+  color: white;
+  font-size: small;
+  width: 40px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 0;
+  background-color: #42b72a;
+}
+
+.join-facebook {
+  font-size: small;
+  height: 25px;
+  float: right;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.triangle {
+  margin-top: 22px;
+  margin-left: 8px;
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid white;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.join-login {
+  display: flex;
+}
+
+h1 {
+  margin: 0;
 }
 
 ul {
